@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragathi Charities - Donate</title>
+    <link rel="stylesheet" href="donation.css">
+</head>
+<body>
+    <header>
+        <div class="top-banner">
+            <h1>Pragathi Charities</h1>
+            
+        </div>
+        <nav>
+            <div class="logo">
+                <h1>Donate For a Cause</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Give to Help Those in Need</h2>
+            <p>Your small contributions can make a big difference.</p>
+            <a href="#donate" class="btn">Donate Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We are a non-profit organization aimed at helping people by providing food, clothes, and shelter. Join us in making the world a better place.</p>
+        </div>
+    </section>
+
+    <section id="donate">
+        <div class="content">
+            <h2>Make a Donation</h2>
+            <form id="donationForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="category">Donation Category:</label>
+                <select id="category" name="category" required>
+                    <option value="food">Food</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="money">Money</option>
+                </select>
+
+                <label for="amount">Donation Amount (₹):</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <button type="submit" class="submit-btn">Donate</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Email: support@donateforacause.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Pragathi Charities. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

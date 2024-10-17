@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.top-banner {
+    background-color:cadetblue ;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 10px black;  /* Big top border */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 150px; /* Adjust margin-top to prevent overlapping with fixed header */
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background:cadetblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e68a00;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#about, #donate, #contact {
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.donation-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.option h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+option button {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+option button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
